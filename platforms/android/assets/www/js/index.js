@@ -49,6 +49,8 @@ var app = {
                         "Format: " + result.format + "\n" +
                         "Cancelled: " + result.cancelled);
 
+                    $('.overlay').fadeIn(500);
+
                     $.ajax({
 
                         url: "http://api.edibleapp.fr/match/"+result.text+"/1", // l'url
@@ -56,6 +58,8 @@ var app = {
                         data: '', // sérialisation de données : username=test&password=test
                         dataType:'json', //type de données, permet de parser le JSON
                         success: function(msg) {
+
+                            $('.overlay').fadeOut(500);
 
                             var main = document.getElementById('main'),
                                 main_scanko = document.getElementById('main_scanko'),

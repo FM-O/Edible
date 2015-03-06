@@ -412,3 +412,37 @@ h3 {
     height: 100%;
     display: none;
 }
+.overlay {
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	background-color:rgba(0,0,0,0.8);
+	z-index: 2000;
+
+	display: none;
+}
+.overlay .container {
+	position: fixed;
+    top: calc(50% - 75px);
+    left: calc(50% - 75px);
+    text-align: center;
+}
+.overlay .container img {
+	-webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+
+    width: 100px;
+}
+.overlay .container span
+{
+	display: inline-block;
+	color:white;
+	font-size: 1.2em;
+	margin-top: 30px;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

@@ -41,6 +41,7 @@ var app = {
 
         test.addEventListener('click', function(e) {
             e.preventDefault();
+            $('.overlay').fadeIn(500);
             console.log('scanning');
             cordova.plugins.barcodeScanner.scan(
                 function (result) {
@@ -49,7 +50,7 @@ var app = {
                     //     "Format: " + result.format + "\n" +
                     //     "Cancelled: " + result.cancelled);
 
-                    $('.overlay').fadeIn(500);
+                    
 
                     $.ajax({
 

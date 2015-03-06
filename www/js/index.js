@@ -61,7 +61,7 @@ var app = {
 
                             $('.overlay').fadeOut(500);
 
-                            if(msg.success == "true") {
+                            if(msg.success) {
 
                                 var main = document.getElementById('main'),
                                     main_scanko = document.getElementById('main_scanko'),

@@ -18,3 +18,24 @@
         }, false);
     }
 })();
+
+(function(){
+    var cross = document.getElementsByClassName('cross'),
+        crossLength = cross.length;
+        main_scanko = document.getElementById('main_scanko'),
+        main_scanok = document.getElementById('main_scanok'),
+        main = document.getElementById('main');
+
+    for (var i = 0 ; i < crossLength ; i++){
+        cross[i].addEventListener('click', function(e) {
+            e.preventDefault();
+            if (main_scanko.style.display == "block") {
+                main_scanko.style.display = "none";
+                main.style.display = "block";
+            } else if (main_scanok.style.display == "block") {
+                main_scanok.style.display = "none";
+                main.style.display = "block";
+            }
+        }, false);
+    }
+})();

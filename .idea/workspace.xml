@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f52e90-7bbf-4754-bc1b-6e6864485094" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/index.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/index.css" afterPath="$PROJECT_DIR$/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/scan.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/scanok.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -72,10 +69,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="14" selection-start="4708" selection-end="4708" vertical-scroll-proportion="0.7027972" vertical-offset="975" max-vertical-offset="1547">
+            <state line="69" column="14" selection-start="4138" selection-end="4138" vertical-scroll-proportion="-27.23077" vertical-offset="465" max-vertical-offset="1547">
               <folding />
             </state>
           </provider>
@@ -90,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="67" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1615">
+            <state line="58" column="28" selection-start="2438" selection-end="2438" vertical-scroll-proportion="0.30441898" vertical-offset="800" max-vertical-offset="1717">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -176,8 +173,8 @@
         <option value="$PROJECT_DIR$/www/scanok.html" />
         <option value="$PROJECT_DIR$/www/scan.html" />
         <option value="$PROJECT_DIR$/www/css/index.css" />
-        <option value="$PROJECT_DIR$/www/js/index.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/index.js" />
       </list>
     </option>
   </component>
@@ -564,17 +561,21 @@
       <workItem from="1425563253128" duration="48000" />
       <workItem from="1425563304327" duration="17369000" />
       <workItem from="1425586691695" duration="13000" />
-      <workItem from="1425586721928" duration="10741000" />
+      <workItem from="1425586721928" duration="11201000" />
     </task>
     <task id="LOCAL-00001" summary="- added vcs intellij">
       <created>1425586909623</created>
       <updated>1425586909623</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="- added miscellaneous">
+      <created>1425603898976</created>
+      <updated>1425603898976</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29031000" />
+    <option name="totallyTimeSpent" value="29491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -621,7 +622,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="- added vcs intellij" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added vcs intellij" />
+    <MESSAGE value="- added miscellaneous" />
+    <option name="LAST_COMMIT_MESSAGE" value="- added miscellaneous" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -817,19 +819,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="67" selection-start="2915" selection-end="2915" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1615">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="69" column="14" selection-start="4138" selection-end="4138" vertical-scroll-proportion="-27.23077" vertical-offset="465" max-vertical-offset="1547">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="14" selection-start="4708" selection-end="4708" vertical-scroll-proportion="0.7027972" vertical-offset="975" max-vertical-offset="1547">
-          <folding />
+        <state line="58" column="28" selection-start="2438" selection-end="2438" vertical-scroll-proportion="0.30441898" vertical-offset="800" max-vertical-offset="1717">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

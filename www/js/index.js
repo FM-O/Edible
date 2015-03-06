@@ -44,10 +44,10 @@ var app = {
             console.log('scanning');
             cordova.plugins.barcodeScanner.scan(
                 function (result) {
-                    alert("We got a barcode\n" +
-                        "Resulta: " + result.text + "\n" +
-                        "Format: " + result.format + "\n" +
-                        "Cancelled: " + result.cancelled);
+                    // alert("We got a barcode\n" +
+                    //     "Resulta: " + result.text + "\n" +
+                    //     "Format: " + result.format + "\n" +
+                    //     "Cancelled: " + result.cancelled);
 
                     $('.overlay').fadeIn(500);
 
@@ -61,34 +61,41 @@ var app = {
 
                             $('.overlay').fadeOut(500);
 
-                            var main = document.getElementById('main'),
-                                main_scanko = document.getElementById('main_scanko'),
-                                main_scanok = document.getElementById('main_scanok');
+                            if(msg.success == "true") {
 
-                            if (msg.result.matching.traces != "" || msg.result.matching.allergens != "") {
+                                var main = document.getElementById('main'),
+                                    main_scanko = document.getElementById('main_scanko'),
+                                    main_scanok = document.getElementById('main_scanok');
 
-                                var allergen = document.getElementById("allergen"),
-                                    allergenType = msg.result.matching.traces,
-                                    allergenName = document.createTextNode(allergenType);
+                                if (msg.result.matching.traces != "" || msg.result.matching.allergens != "") {
 
-                                allergen.appendChild(allergenName);
+                                    var allergen = document.getElementById("allergen"),
+                                        allergenType = msg.result.matching.traces,
+                                        allergenName = document.createTextNode(allergenType);
 
-                                main.style.display = "none";
-                                main_scanko.style.display = 'block';
+                                    allergen.appendChild(allergenName);
 
-                                alert("Nom du product : "+msg.result.product.name);
-                            } else {
+                                    main.style.display = "none";
+                                    main_scanko.style.display = 'block';
 
-                                alert("pas d'allergie");
+                                    alert("Nom du product : "+msg.result.product.name);
+                                } else {
 
-                                main.style.display = "none";
-                                main_scanok.style.display = "block";
+                                    alert("pas d'allergie");
 
-                                alert("Nom du product : "+msg.result.product.name);
+                                    main.style.display = "none";
+                                    main_scanok.style.display = "block";
+
+                                    alert("Nom du product : "+msg.result.product.name);
+                                }
+                            }
+                            else
+                            {
+                                alert("Erreur : "+msg.result);
                             }
                         },
                         error: function( jqXhr, textStatus, errorThrown ){
-                            alert("error:"+textStatus+errorThrown );
+                            alert("Erreur : Impossible de se connecter à l'API.");
                         }
                     });
                 },

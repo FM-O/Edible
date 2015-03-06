@@ -421,7 +421,7 @@ h3 {
 	background-color:rgba(0,0,0,0.8);
 	z-index: 2000;
 
-	/*display: none;*/
+	display: none;
 }
 .overlay .container {
 	position: fixed;

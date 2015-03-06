@@ -78,15 +78,15 @@ var app = {
                                     main.style.display = "none";
                                     main_scanko.style.display = 'block';
 
-                                    alert("Nom du product : "+msg.result.product.name);
+                                    // alert("Nom du product : "+msg.result.product.name);
                                 } else {
 
-                                    alert("pas d'allergie");
+                                    // alert("pas d'allergie");
 
                                     main.style.display = "none";
                                     main_scanok.style.display = "block";
 
-                                    alert("Nom du product : "+msg.result.product.name);
+                                    // alert("Nom du product : "+msg.result.product.name);
                                 }
                             }
                             else

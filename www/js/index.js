@@ -96,6 +96,7 @@ var app = {
                             }
                         },
                         error: function( jqXhr, textStatus, errorThrown ){
+                            $('.overlay').fadeOut(500);
                             alert("Erreur : Impossible de se connecter à l'API.");
                         }
                     });

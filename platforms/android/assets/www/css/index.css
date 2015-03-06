@@ -201,141 +201,141 @@ li_active {
 }
 
 /* Inactive backgrounds */
-#listecontain .oeuf {
+#listecontain #oeuf {
 	background: url("../img/list/oeuf-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .arachide {
+#listecontain #arachide {
 	background: url("../img/list/arachide-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .poisson {
+#listecontain #poisson {
 	background: url("../img/list/poisson-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .lait {
+#listecontain #lait {
 	background: url("../img/list/lait-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .soja {
+#listecontain #soja {
 	background: url("../img/list/soja-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .boeuf {
+#listecontain #boeuf {
 	background: url("../img/list/boeuf-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .ble {
+#listecontain #ble {
 	background: url("../img/list/ble-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .fruits {
+#listecontain #fruits {
 	background: url("../img/list/fruits-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .crustaces {
+#listecontain #crustaces {
 	background: url("../img/list/crustaces-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .moutarde {
+#listecontain #moutarde {
 	background: url("../img/list/moutarde-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .porc {
+#listecontain #porc {
 	background: url("../img/list/porc-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .poulet {
+#listecontain #poulet {
 	background: url("../img/list/poulet-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .ail {
+#listecontain #ail {
 	background: url("../img/list/ail-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .tournesol {
+#listecontain #tournesol {
 	background: url("../img/list/tournesol-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .carotte {
+#listecontain #carotte {
 	background: url("../img/list/carrots-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .peche {
+#listecontain #peche {
 	background: url("../img/list/peche-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .tomate {
+#listecontain #tomate {
 	background: url("../img/list/tomate-inactive.jpg") no-repeat center center;
 	background-size: cover;
 }
 
 /* Active backgrounds */
-#listecontain .oeuf-active {  
+#listecontain #oeuf.active {  
 	background: url("../img/list/oeuf-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .arachide-active {
+#listecontain #arachide.active {
 	background: url("../img/list/arachide-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .poisson-active {
+#listecontain #poisson.active {
 	background: url("../img/list/poisson-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .lait-active {
+#listecontain #lait.active {
 	background: url("../img/list/lait-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .soja-active {
+#listecontain #soja.active {
 	background: url("../img/list/soja-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .boeuf-active {
+#listecontain #boeuf.active {
 	background: url("../img/list/boeuf-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .ble-active{
+#listecontain #ble.active{
 	background: url("../img/list/ble-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .fruits-active {
+#listecontain #fruits.active {
 	background: url("../img/list/fruits-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .crustaces-active {
+#listecontain #crustaces.active {
 	background: url("../img/list/crustaces-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .moutarde-active {
+#listecontain #moutarde.active {
 	background: url("../img/list/moutarde-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .porc-active {
+#listecontain #porc.active {
 	background: url("../img/list/porc-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .poulet-active {
+#listecontain #poulet.active {
 	background: url("../img/list/poulet-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .ail-active {
+#listecontain #ail.active {
 	background: url("../img/list/ail-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .tournesol-active {
+#listecontain #tournesol.active {
 	background: url("../img/list/tournesol-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .carotte-active {
+#listecontain #carotte.active {
 	background: url("../img/list/carrots-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .peche-active {
+#listecontain #peche.active {
 	background: url("../img/list/peche-active.jpg") no-repeat center center;
 	background-size: cover;
 }
-#listecontain .tomate-active {
+#listecontain #tomate.active {
 	background: url("../img/list/tomate-active.jpg") no-repeat center center;
 	background-size: cover;
 }

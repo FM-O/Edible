@@ -9,7 +9,8 @@
     for (var i = 0 ; i < itemsLength ; i++) {
         items[i].addEventListener('click', function(e){
             e.preventDefault();
-            this.className += "active";
+            this.className = "item active";
+
         }, false);
     }
 })();

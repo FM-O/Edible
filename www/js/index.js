@@ -51,12 +51,28 @@ var app = {
 
                     $.ajax({
 
-                        url: "http://edible.mmilabs.ovh/api/match/"+result.text+"/1", // l'url
+                        url: "http://api.edibleapp.fr/match/"+result.text+"/1", // l'url
                         type: "POST", // la méthode
                         data: '', // sérialisation de données : username=test&password=test
                         dataType:'json', //type de données, permet de parser le JSON
                         success: function(msg) {
-                            alert("Nom du product : "+msg.result.product.name);
+                            var main = document.getElementById('main'),
+                                main_scanko = document.getElementById('main_scanko');
+                            if (msg.result.matching.traces == "" && msg.result.matching.allergens == "") {
+
+                                var allergen = document.getElementById("allergen"),
+                                    allergenName = document.createTextNode("Nutella");
+
+                                allergen.appendChild(allergenName);
+
+                                main.style.display = "none";
+                                main_scanko.style.display = 'block';
+
+                                alert("Nom du product : "+msg.result.product.name);
+                            } else {
+                                window.location.href="scanok.html";
+                                alert("Nom du product : "+msg.result.product.name);
+                            }
                         },
                         error: function( jqXhr, textStatus, errorThrown ){
                             alert("error:"+textStatus+errorThrown );

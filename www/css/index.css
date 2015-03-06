@@ -249,3 +249,13 @@ h3 {
     font-family: "Lato";
     font-size: 1em;
 }
+
+#main_scanok {
+    height: 100%;
+    display: none;
+}
+
+#main_scanko {
+    height: 100%;
+    display: none;
+}

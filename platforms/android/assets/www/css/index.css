@@ -123,7 +123,7 @@ a {
     float: right;
 }
 
-#cross {
+.cross {
     background : url("../img/cross.png") no-repeat;
     display:inline-block;
     width: 18px;

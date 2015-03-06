@@ -96,12 +96,13 @@ var app = {
                             }
                         },
                         error: function( jqXhr, textStatus, errorThrown ){
-                            $('.overlay').fadeOut(500);
+                            $('.overlay').fadeOut(500); //test
                             alert("Erreur : Impossible de se connecter à l'API.");
                         }
                     });
                 },
                 function (error) {
+                    $('.overlay').fadeOut(500);
                     alert("Scanning failed: " + error);
                 }
             );

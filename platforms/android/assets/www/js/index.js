@@ -56,12 +56,16 @@ var app = {
                         data: '', // sérialisation de données : username=test&password=test
                         dataType:'json', //type de données, permet de parser le JSON
                         success: function(msg) {
+
                             var main = document.getElementById('main'),
-                                main_scanko = document.getElementById('main_scanko');
-                            if (msg.result.matching.traces == "" && msg.result.matching.allergens == "") {
+                                main_scanko = document.getElementById('main_scanko'),
+                                main_scanok = document.getElementById('main_scanok');
+
+                            if (msg.result.matching.traces != "" && msg.result.matching.allergens != "") {
 
                                 var allergen = document.getElementById("allergen"),
-                                    allergenName = document.createTextNode("Nutella");
+                                    allergenType = msg.result.matching.allergens,
+                                    allergenName = document.createTextNode(allergenType);
 
                                 allergen.appendChild(allergenName);
 
@@ -70,7 +74,12 @@ var app = {
 
                                 alert("Nom du product : "+msg.result.product.name);
                             } else {
-                                window.location.href="scanok.html";
+
+                                alert("pas d'allergie");
+
+                                main.style.display = "none";
+                                main_scanok.display = "block";
+
                                 alert("Nom du product : "+msg.result.product.name);
                             }
                         },

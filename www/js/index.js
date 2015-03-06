@@ -61,10 +61,11 @@ var app = {
                                 main_scanko = document.getElementById('main_scanko'),
                                 main_scanok = document.getElementById('main_scanok');
 
-                            if (msg.result.matching.traces == "" && msg.result.matching.allergens == "") {
+                            if (msg.result.matching.traces != "" && msg.result.matching.allergens != "") {
 
                                 var allergen = document.getElementById("allergen"),
-                                    allergenName = document.createTextNode("Nutella");
+                                    allergenType = msg.result.matching.allergens,
+                                    allergenName = document.createTextNode(allergenType);
 
                                 allergen.appendChild(allergenName);
 
@@ -73,6 +74,8 @@ var app = {
 
                                 alert("Nom du product : "+msg.result.product.name);
                             } else {
+
+                                alert("pas d'allergie");
 
                                 main.style.display = "none";
                                 main_scanok.display = "block";

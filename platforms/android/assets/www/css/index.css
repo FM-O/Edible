@@ -81,6 +81,7 @@ a {
     padding: 40px 25px 10px 25px;
     display: inline-block;
     font-size: 36px;
+    text-transform: capitalize;
 }
 .description {
     padding: 0 25px 20px;
@@ -114,7 +115,7 @@ a {
     margin-top: -1px;
 }
 
-#info {
+.fleche {
     background : url("../img/arrow.png") no-repeat;
     display:inline-block;
     width: 18px;

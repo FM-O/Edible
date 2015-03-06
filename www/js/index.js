@@ -50,7 +50,7 @@ var app = {
                     //     "Format: " + result.format + "\n" +
                     //     "Cancelled: " + result.cancelled);
 
-                    
+                    //alert("http://api.edibleapp.fr/match/"+result.text+"/1");
 
                     $.ajax({
 
@@ -70,11 +70,17 @@ var app = {
 
                                 if (msg.result.matching.traces != "" || msg.result.matching.allergens != "") {
 
-                                    var allergen = document.getElementById("allergen"),
-                                        allergenType = msg.result.matching.traces,
-                                        allergenName = document.createTextNode(allergenType);
+                                    /*var allergen = document.getElementById("allergen"),
+                                     allergenType = msg.result.matching.traces,
+                                     allergenName = document.createTextNode(allergenType);
 
-                                    allergen.appendChild(allergenName);
+                                     allergen.appendChild(allergenName);*/
+
+                                    var allergenType = msg.result.matching.traces;
+
+                                    $.each(allergenType, function(key, value){
+                                       $("#allergen").text(value);
+                                    });
 
                                     main.style.display = "none";
                                     main_scanko.style.display = 'block';

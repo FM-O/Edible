@@ -95,9 +95,7 @@ var app = {
 
                                     // alert("Nom du product : "+msg.result.product.name);
                                 }
-                            }
-                            else
-                            {
+                            } else {
                                 alert("Erreur : "+msg.result);
                             }
                         },

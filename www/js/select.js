@@ -21,7 +21,7 @@
 
 (function(){
     var cross = document.getElementsByClassName('cross'),
-        crossLength = cross.length;
+        crossLength = cross.length,
         main_scanko = document.getElementById('main_scanko'),
         main_scanok = document.getElementById('main_scanok'),
         main = document.getElementById('main');

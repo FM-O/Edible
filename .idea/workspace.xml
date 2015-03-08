@@ -2,7 +2,320 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f52e90-7bbf-4754-bc1b-6e6864485094" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\sources\popol\config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\hooks\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\.project" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\cordova.gradle" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\Address.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\Connection.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\ConnectionPool.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\Dispatcher.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\Failure.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\HttpResponseCache.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\Job.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\MediaType.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\OkAuthenticator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\OkHttpClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\OkResponseCache.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\Request.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\Response.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\ResponseSource.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\Route.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\RouteDatabase.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\TunnelRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\AbstractOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\Base64.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\DiskLruCache.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\Dns.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\FaultRecoveringOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\NamedRunnable.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\Platform.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\StrictLineReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\Util.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\AbstractHttpInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HeaderParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpAuthenticator.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpDate.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpEngine.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpTransport.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpURLConnectionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpsEngine.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\HttpsURLConnectionImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\OkResponseCacheAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\Policy.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\RawHeaders.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\RequestHeaders.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\ResponseHeaders.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\RetryableOutputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\RouteSelector.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\SpdyTransport.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\Transport.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\http\UnknownLengthHttpInputStream.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\ErrorCode.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\FrameReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\FrameWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\HeadersMode.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Hpack.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Http20Draft06.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\IncomingStreamHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\NameValueBlockReader.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Ping.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Settings.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Spdy3.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\SpdyConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\SpdyStream.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\spdy\Variant.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\tls\DistinguishedNameParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\com\squareup\okhttp\internal\tls\OkHostnameVerifier.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\App.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\AuthenticationToken.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CallbackContext.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\Config.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\ConfigXmlParser.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaArgs.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaBridge.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaChromeClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaClientCertRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaHttpAuthHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaPreferences.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaResourceApi.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaUriHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaWebView.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\CordovaWebViewClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\DirectoryManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\DroidGap.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\ExifHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\ExposedJsApi.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\FileHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\ICordovaClientCertRequest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\ICordovaHttpAuthHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\IceCreamCordovaWebViewClient.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\JSONUtils.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\LOG.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\LinearLayoutSoftKeyboardDetect.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\NativeToJsMessageQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\PluginEntry.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\PluginManager.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\PluginResult.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\ScrollEvent.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\SplashScreenInternal.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\CordovaLib\src\org\apache\cordova\Whitelist.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\_where-is-www.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\cordova_plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\css\index.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\css\reset.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\img\Lato-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\img\Lato-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\img\Lato-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\img\arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\img\back.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\img\chevron.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\img\cross.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\img\login-fb.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\img\scan-btn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\img\tick.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\js\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\js\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\php\scripts\controllers\Controller.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\php\scripts\database.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\assets\www\plugins\com.phonegap.plugins.barcodescanner\www\barcodescanner.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\android_sdk_version" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\build" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\build.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\check_reqs" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\clean" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\clean.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\defaults.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\android_sdk_version.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\appinfo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\build.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\check_reqs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\device.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\emulator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\exec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\install-device" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\install-device.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\install-emulator" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\install-emulator.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\list-devices" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\list-devices.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\list-emulator-images" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\list-emulator-images.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\list-started-emulators" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\list-started-emulators.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\log.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\plugin-build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\run.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\spawn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\start-emulator" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\lib\start-emulator.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\log" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\log.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\q\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\q\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\q\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\q\benchmark\compare-with-callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\q\benchmark\scenarios.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\q\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\q\q.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\q\queue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\.documentup.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\bin\shjs" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\global.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\make.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\scripts\generate-docs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\scripts\run-tests.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\shell.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\cat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\cd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\chmod.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\common.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\cp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\dirs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\echo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\error.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\exec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\find.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\grep.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\ls.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\mkdir.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\mv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\popd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\pushd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\pwd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\rm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\sed.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\tempdir.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\to.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\toEnd.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\shelljs\src\which.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\which\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\which\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\which\bin\which" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\which\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\node_modules\which\which.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\run" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\run.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\version" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\cordova\version.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\custom_rules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\libs\com.google.zxing.client.android.captureactivity.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\platform_www\cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\project.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-hdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-hdpi\launcher_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-hdpi\shopper_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-land-hdpi\screen.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-land-ldpi\screen.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-land-mdpi\screen.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-land-xhdpi\screen.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-ldpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-mdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-port-hdpi\screen.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-port-ldpi\screen.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-port-mdpi\screen.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-port-xhdpi\screen.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-xhdpi\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-xhdpi\launcher_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable-xxhdpi\launcher_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable\launcher_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable\share_via_barcode.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\drawable\shopper_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout-land\encode.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout-land\share.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout-ldpi\capture.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout\bookmark_picker_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout\capture.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout\encode.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout\help.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout\history_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout\search_book_contents.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout\search_book_contents_header.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout\search_book_contents_list_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\layout\share.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\menu\capture.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\menu\encode.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\menu\history.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\raw\beep.ogg" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-ar\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-bg\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-ca\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-cs\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-da\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-de\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-el\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-es\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-eu\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-fi\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-fr\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-he\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-hi\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-hu\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-id\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-it\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-iw\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-ja\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-ko\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-nl\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-pl\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-pt\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-ru\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-sk\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-sl\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-sv\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-tr\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-zh-rCN\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values-zh-rTW\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values\arrays.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values\colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values\ids.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\xml\config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\res\xml\preferences.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\src\com\phonegap\plugins\barcodescanner\BarcodeScanner.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\platforms\android\src\io\cordova\hellocordova\MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\plugins\android.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\plugins\com.phonegap.plugins.barcodescanner" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\css\index.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\css\reset.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\img\Lato-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\img\Lato-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\img\Lato-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\img\arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\img\back.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\img\chevron.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\img\cross.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\img\login-fb.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\img\scan-btn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\img\tick.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\js\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\js\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\scan.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\sources\popol\www\scanok.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="popol.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,66 +379,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="14" selection-start="4138" selection-end="4138" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1547">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="84359" selection-end="84359" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="1717">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scanok.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/scanok.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="75" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scan.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/scan.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="74" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="247" column="16" selection-start="4115" selection-end="4115" vertical-scroll-proportion="0.0" vertical-offset="3937" max-vertical-offset="4522">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611">
+            <state line="3" column="45" selection-start="116" selection-end="116" vertical-scroll-proportion="0.08346972" vertical-offset="0" max-vertical-offset="611">
               <folding />
             </state>
           </provider>
@@ -210,34 +467,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="popol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popol" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -534,7 +763,7 @@
       <workItem from="1425563304327" duration="17369000" />
       <workItem from="1425586691695" duration="13000" />
       <workItem from="1425586721928" duration="11201000" />
-      <workItem from="1425843101303" duration="8000" />
+      <workItem from="1425843101303" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="- added vcs intellij">
       <created>1425586909623</created>
@@ -544,11 +773,15 @@
       <created>1425603898976</created>
       <updated>1425603898976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- updated gitignore">
+      <created>1425843118906</created>
+      <updated>1425843118906</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29499000" />
+    <option name="totallyTimeSpent" value="29849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -567,6 +800,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -578,7 +812,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -596,7 +829,8 @@
     </option>
     <MESSAGE value="- added vcs intellij" />
     <MESSAGE value="- added miscellaneous" />
-    <option name="LAST_COMMIT_MESSAGE" value="- added miscellaneous" />
+    <MESSAGE value="- updated gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="- updated gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -606,46 +840,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="14" selection-start="4138" selection-end="4138" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="84359" selection-end="84359" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="1717">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/scanok.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="75" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/scan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="74" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="16" selection-start="4115" selection-end="4115" vertical-scroll-proportion="0.0" vertical-offset="3937" max-vertical-offset="4522">
+        <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
           <folding />
         </state>
       </provider>
@@ -657,83 +854,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="26" selection-start="3585" selection-end="3585" vertical-scroll-proportion="0.0" vertical-offset="554" max-vertical-offset="1139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="84359" selection-end="84359" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="32" selection-start="2555" selection-end="2555" vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1343">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="19" selection-start="3411" selection-end="3411" vertical-scroll-proportion="0.0" vertical-offset="809" max-vertical-offset="4352">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="26" selection-start="3585" selection-end="3585" vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="1139">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="84359" selection-end="84359" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="32" selection-start="2555" selection-end="2555" vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1343">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="19" selection-start="3411" selection-end="3411" vertical-scroll-proportion="0.0" vertical-offset="809" max-vertical-offset="4352">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
@@ -745,27 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1909" selection-end="1909" vertical-scroll-proportion="0.0" vertical-offset="227" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="84359" selection-end="84359" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611">
@@ -773,46 +875,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/scanok.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="75" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/scan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="74" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="247" column="16" selection-start="4115" selection-end="4115" vertical-scroll-proportion="0.0" vertical-offset="3937" max-vertical-offset="4522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="14" selection-start="4138" selection-end="4138" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="2410" selection-end="2410" vertical-scroll-proportion="0.0" vertical-offset="800" max-vertical-offset="1717">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+        <state line="3" column="45" selection-start="116" selection-end="116" vertical-scroll-proportion="0.08346972" vertical-offset="0" max-vertical-offset="611">
           <folding />
         </state>
       </provider>

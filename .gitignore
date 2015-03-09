@@ -1,2 +1,8 @@
 # Created by .gitignore support plugin (hsz.mobi)
+<<<<<<< HEAD
 .idea/workspace.xml
+=======
+.idea/workspace.xml
+
+# SET database files and sensitive files here
+>>>>>>> 62540ce534ea5da40c79fd1db32de5ae68396d38

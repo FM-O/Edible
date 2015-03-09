@@ -26,38 +26,44 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <script type="text/javascript" src="js/jquery.js"></script>
-        <title>Hello World</title>
+        <title>Edible</title>
     </head>
     <body>
+        <div class='overlay'>
+            <div class='container'>
+                <img src="img/spinner9.svg" /><br />
+                <span>Chargement ...</span>
+            </div>
+        </div>
         <div class="app" id="main">
             <div id="deviceready" class="blink">
                 <div id="bigtitle"><a href="#" id="back"></a><h1>Vos allergies</h1></div>
                 <div id="listecontain">
-                    <ul>
-                        <li><a href=""><h2>Œuf</h2><h3>Gratins, beurre, mayonnaise</h3></a></li>
-                        <li><a href=""><h2>Arachide</h2><h3>Cacahuètes, beurre de cacahuètes, margarine</h3></a></li>
-                        <li><a href=""><h2>Poisson</h2><h3>Surimis, panés, parmentiers</h3></a></li>
-                        <li><a href=""><h2>Lait</h2><h3>Fromage, desserts, yahourts</h3></a></li>
-                        <li><a href=""><h2>Soja</h2><h3>Lentilles, pois, tofu</h3></a></li>
-                        <li><a href=""><h2>Bœuf</h2><h3>Viande de bœuf</h3></a></li>
-                        <li><a href=""><h2>Crustacés</h2><h3>Fruits de mer, mollusques, calamars</h3></a></li>
-                        <li><a href=""><h2>Moutarde</h2><h3>Produits à base de moutarde</h3></a></li>
-                        <li><a href=""><h2>Fruits à coques</h2><h3>Noisettes, amandes, noix</h3></a></li>
-                        <li><a href=""><h2>Porc</h2><h3>Viande de porc</h3></a></li>
-                        <li><a href=""><h2>Poulet</h2><h3>Volailles, dinde, chapon</h3></a></li>
-                        <li><a href=""><h2>Ail</h2><h3>Produits à base d'ail</h3></a></li>
-                        <li><a href=""><h2>Tournesol</h2><h3>Huiles, graînes de tournesol</h3></a></li>
-                        <li><a href=""><h2>Carotte</h2><h3>Caroténoïdes</h3></a></li>
-                        <li><a href=""><h2>Pêche</h2><h3>Produits à base de pêches</h3></a></li>
-                        <li><a href=""><h2>Blé</h2><h3>Farine, pain pates</h3></a></li>
-                        <li><a href=""><h2>Tomate</h2><h3>Produits à base de tomates</h3></a></li>
-                    </ul>
+					<ul>
+						<li id="oeuf" class="item"><h2>Œuf</h2><h3>Gratins, beurre, mayonnaise</h3></li>
+						<li id="arachide" class="item"><h2>Arachide</h2><h3>Cacahuètes, beurre de cacahuètes, margarine</h3></li>
+						<li id="poisson" class="item"><h2>Poisson</h2><h3>Surimis, panés, parmentiers</h3></li>
+						<li id="lait" class="item"><h2>Lait</h2><h3>Fromage, desserts, yahourts</h3></li>
+						<li id="soja" class="item"><h2>Soja</h2><h3>Lentilles, pois, tofu</h3></li>
+						<li id="boeuf" class="item"><h2>Bœuf</h2><h3>Viande de bœuf</h3></li>
+						<li id="crustaces" class="item"><h2>Crustacés</h2><h3>Fruits de mer, mollusques, calamars</h3></li>
+						<li id="moutarde" class="item"><h2>Moutarde</h2><h3>Produits à base de moutarde</h3></li>
+						<li id="fruits" class="item"><h2>Fruits à coques</h2><h3>Noisettes, amandes, noix</h3></li>
+						<li id="porc" class="item"><h2>Porc</h2><h3>Viande de porc</h3></li>
+						<li id="poulet" class="item"><h2>Poulet</h2><h3>Volailles, dinde, chapon</h3></li>
+						<li id="ail" class="item"><h2>Ail</h2><h3>Produits à base d'ail</h3></a></li>
+						<li id="tournesol" class="item"><h2>Tournesol</h2><h3>Huiles, graînes de tournesol</h3></li>
+						<li id="carotte" class="item"><h2>Carotte</h2><h3>Caroténoïdes</h3></li>
+						<li id="peche" class="item"><h2>Pêche</h2><h3>Produits à base de pêches</h3></li>
+						<li id="ble" class="item"><h2>Blé</h2><h3>Farine, pain pates</h3></a></li>
+						<li id="tomate" class="item"><h2>Tomate</h2><h3>Produits à base de tomates</h3></li>
+					</ul>
                 </div>
                 <div id="goscan"></div>
             </div>
         </div>
         <div id="main_scanok">
-            <div id="scanok"><h1>IT'S EDIBLE</h1><a id="cross"></a></div>
+            <div id="scanok"><h1>IT'S EDIBLE</h1><a class="cross"></a></div>
             <div id="infoks">
                 <h2 class="title">Aucun risque</h2>
                 <p class="description">
@@ -65,11 +71,11 @@
                 </p>
             </div>
             <div id="buttonplaceok">
-                <div class="buttonok"><a href="">Plus d'informations<span id="info"></span></a></div>
+                <div class="buttonok"><a href="">Plus d'informations<span class="fleche"></span></a></div>
             </div>
         </div>
         <div id="main_scanko">
-            <div id="scanko"><h1>ATTENTION</h1><a id="cross"></a></div>
+            <div id="scanko"><h1>ATTENTION</h1><a class="cross"></a></div>
             <div id="infos">
                 <h2 class="title" id="allergen"></h2>
                 <p class="description">
@@ -77,9 +83,10 @@
                 </p>
             </div>
             <div id="buttonplace">
-                <div class="button"><a href="">Plus d'informations<span id="info"></span></a></div>
+                <div class="button"><a href="">Plus d'informations<span class="fleche"></span></a></div>
             </div>
         </div>
+        <script type="text/javascript" src="js/select.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>

@@ -41,13 +41,16 @@ var app = {
 
         test.addEventListener('click', function(e) {
             e.preventDefault();
+            $('.overlay').fadeIn(500);
             console.log('scanning');
             cordova.plugins.barcodeScanner.scan(
                 function (result) {
-                    alert("We got a barcode\n" +
-                        "Resulta: " + result.text + "\n" +
-                        "Format: " + result.format + "\n" +
-                        "Cancelled: " + result.cancelled);
+                    // alert("We got a barcode\n" +
+                    //     "Resulta: " + result.text + "\n" +
+                    //     "Format: " + result.format + "\n" +
+                    //     "Cancelled: " + result.cancelled);
+
+                    //alert("http://api.edibleapp.fr/match/"+result.text+"/1");
 
                     $.ajax({
 
@@ -56,30 +59,54 @@ var app = {
                         data: '', // sérialisation de données : username=test&password=test
                         dataType:'json', //type de données, permet de parser le JSON
                         success: function(msg) {
-                            var main = document.getElementById('main'),
-                                main_scanko = document.getElementById('main_scanko');
-                            if (msg.result.matching.traces == "" && msg.result.matching.allergens == "") {
 
-                                var allergen = document.getElementById("allergen"),
-                                    allergenName = document.createTextNode("Nutella");
+                            $('.overlay').fadeOut(500);
 
-                                allergen.appendChild(allergenName);
+                            if(msg.success) {
 
-                                main.style.display = "none";
-                                main_scanko.style.display = 'block';
+                                var main = document.getElementById('main'),
+                                    main_scanko = document.getElementById('main_scanko'),
+                                    main_scanok = document.getElementById('main_scanok');
 
-                                alert("Nom du product : "+msg.result.product.name);
+                                if (msg.result.matching.traces != "" || msg.result.matching.allergens != "") {
+
+                                    /*var allergen = document.getElementById("allergen"),
+                                     allergenType = msg.result.matching.traces,
+                                     allergenName = document.createTextNode(allergenType);
+
+                                     allergen.appendChild(allergenName);*/
+
+                                    var allergenType = msg.result.matching.traces;
+
+                                    $.each(allergenType, function(key, value){
+                                       $("#allergen").text(value);
+                                    });
+
+                                    main.style.display = "none";
+                                    main_scanko.style.display = 'block';
+
+                                    // alert("Nom du product : "+msg.result.product.name);
+                                } else {
+
+                                    // alert("pas d'allergie");
+
+                                    main.style.display = "none";
+                                    main_scanok.style.display = "block";
+
+                                    // alert("Nom du product : "+msg.result.product.name);
+                                }
                             } else {
-                                window.location.href="scanok.html";
-                                alert("Nom du product : "+msg.result.product.name);
+                                alert("Erreur : "+msg.result);
                             }
                         },
                         error: function( jqXhr, textStatus, errorThrown ){
-                            alert("error:"+textStatus+errorThrown );
+                            $('.overlay').fadeOut(500); //test
+                            alert("Erreur : Impossible de se connecter à l'API.");
                         }
                     });
                 },
                 function (error) {
+                    $('.overlay').fadeOut(500);
                     alert("Scanning failed: " + error);
                 }
             );

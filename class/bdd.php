@@ -5,9 +5,9 @@ class BDD extends PDO {
 	// Defining some constants for the connection
 
 	const HOST = "localhost";
-	const DATABASE = "edible";
-	const USER = "edible";
-	const PASS = "ediblev0";
+	const DATABASE = "dbname";
+	const USER = "user";
+	const PASS = "pass";
 
 	// The constructor, called when the class is created
 
